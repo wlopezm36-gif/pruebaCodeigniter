@@ -9,7 +9,7 @@ class Home extends BaseController
         $renderer = service('renderer');
 
         return $renderer
-            ->setVar('titulo', 'Prueba codegigniter terminado')
+            ->setVar('titulo', 'HOLA MUNDOOOOOOOOOOOOOOO')
             ->setVar('mensaje', 'willian Lopez')
             ->render('home');
     }
